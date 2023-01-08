@@ -1,0 +1,20 @@
+<%-include("partials/header");-%> <%-include("partials/navbar");-%>
+
+<h1 class="home">Home</h1>
+<p class="home_para"><%= homeContent_ejs %></p>
+
+<% posts.forEach(function (post){ %>
+
+<h1><%= post.title %></h1>
+<p class="para_text readmore_para"><%= post.text %></p>
+
+<button
+  class="btn readmore_button"
+  onclick="location.href='/posts/<%= post.title %>'"
+  type="button"
+>
+  Read More..
+</button>
+
+
+<% }) %> <%-include("partials/footer");-%>

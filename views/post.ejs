@@ -1,0 +1,25 @@
+<%-include("partials/header");-%> <%-include("partials/navbar");-%>
+<h1 class="home"><%= title %></h1>
+<p class="date_post" ><%= date %></p>
+<p><%= text %></p>
+
+<div class="likes_shares">
+
+  <form action="/handleLikeButtons" method="POST">
+
+    <span class="body_like_button">
+      <button type="submit" name="Title" value="<%= title %>" class="like__btn">
+          <span id="icon"><i class="fa-regular fa-heart"></i></span>
+          <span id="count"><%= likesCount %> </span> Like
+      </button>
+    </span>
+
+  </form>
+
+</div>
+
+
+
+
+<%-include("./translate.ejs");-%>
+<%-include("partials/footer");-%>

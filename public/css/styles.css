@@ -1,0 +1,177 @@
+html {
+  height: 100%;
+}
+body {
+  /* background-color: #f6f6f6; */
+  background-color: white;
+  min-height: 100%;
+}
+
+footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  /* margin-top: auto; */
+  top: 100%;
+  padding-bottom: 0.5rem;
+  position: sticky;
+  color: slategray;
+}
+
+h1 {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
+
+a {
+  display: inline;
+}
+.home {
+  position: relative;
+  margin-top: 125px;
+  margin-bottom: 0.3rem;
+}
+
+.home_para{
+  margin-bottom: 5rem;
+}
+
+.readmore_para {
+  display: inline-block;
+  max-width: 100ch;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.readmore_button {
+  text-align: center;
+  display: block;
+  margin-left: 45%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  /* color: #ff9494; */
+  color: #FBC252;
+
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
+}
+
+.readmore_button:hover {
+  /* color: #ee6983; */
+  color: grey;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  /* background-color: #ffe2e2; */
+  background-color: #FCE38A;
+  height: auto;
+  width: 100%;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.3);
+}
+.navbar-brand {
+  margin-left: 5%;
+  letter-spacing: 0.3rem;
+  font-weight: 300;
+}
+.navbar-brand:hover {
+  /* color: #f56d91; */
+  color: grey;
+}
+.links {
+  margin-left: 1.5rem;
+  text-decoration-line: none;
+  color: inherit;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+.links:hover {
+  /* color: #ff5c8d; */
+  color: grey;
+}
+
+.compose {
+  margin: 5%;
+  margin-top: 0%;
+}
+
+/* ///// Like Button Css */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.body_like_button {
+  margin-top: 3%;
+  display:inline;
+  margin: 0;
+  margin-left: 5%;
+  padding: 0;
+  box-sizing: border-box;
+  background: #e8efff;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+}
+
+.like__btn {
+  padding: 10px 15px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  /* color:rgb(225, 81, 81); */
+  color:black;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-color: #F9ED69;
+  background: #F9ED69;
+}
+.like__btn:hover{
+  background-color: #FBC252;;
+}
+.likes_shares{
+  display: inline-block;
+  width:12rem;
+  margin-left: 5%;
+}
+
+/* /// translate */
+.transGoogle{
+  background-color: #EEEEEE;
+  width: 11rem;
+  padding: 1rem;
+  display: inline-block;
+  margin-left: 3%;
+  border-radius: 5px;
+}
+
+/* /// Date //// */
+.date_post{
+  color: grey;
+  margin-top: 0%;
+}
+
+/* ////// Publish //// */
+.publish_btn{
+  border-color: #F9ED69;
+  background: #F9ED69;
+
+}
+.publish_btn:hover{
+  background-color: #FBC252;;
+
+}
